@@ -46,7 +46,7 @@ public class Order {
         orderItem.setOrder(this);
     }
 
-    public setDelivery(Delivery delivery) {
+    public void setDelivery(Delivery delivery) {
         this.delivery = delivery;
         delivery.setOrder(this);
     }
